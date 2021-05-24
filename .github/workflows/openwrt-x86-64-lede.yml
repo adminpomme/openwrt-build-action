@@ -23,6 +23,11 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: x86_64-lede.config
   SHOWSSR_SH: HELLOWORLD.sh
+  UPLOAD_BIN_DIR: false
+  UPLOAD_FIRMWARE: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: false
   CUSTOMIZE_SH: customize.sh
 
 jobs:
